@@ -1,0 +1,9 @@
+.email-list-from-display{
+    margin-top: -4rem;
+    & .Email{
+        background: purple;
+        color: #fff;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+}

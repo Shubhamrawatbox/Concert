@@ -1,0 +1,16 @@
+.Hero-section {
+    & .cursol {
+        z-index: -55;
+        & .carousel-item{
+            height: 500px !important;
+            & .caption{
+                top:20%;
+                font-weight: bold;
+                color: #f1c40f;
+                left: 5%;
+                width: 500px;
+            }
+        }
+    }
+
+}

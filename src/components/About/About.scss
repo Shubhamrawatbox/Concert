@@ -1,6 +1,48 @@
-.about{
-    margin: 3rem 0;
+.about {
+  margin: 3rem 0;
 }
-.why-Party{
-    padding-right: 2rem;
+.why-Party {
+  padding-right: 1.5rem;
+}
+
+.ConatctInfo {
+  padding-left: 2.5rem;
+  & .location {
+    margin-top: 1.5rem;
+    & ul {
+      margin-top: 2rem;
+      & li {
+        list-style: none;
+        line-height: 2rem;
+      }
+    }
+  }
+  & .phone {
+    margin-top: 1.5rem;
+    & ul {
+      padding-inline-start: 1rem;
+      & li {
+        list-style: none;
+        line-height: 2rem;
+      }
+    }
+  }
+  & .social {
+    margin-top: 1.5rem;
+    & ul {
+      padding-inline-start: 1rem;
+      & li {
+        list-style: none;
+        line-height: 2rem;
+        font-size: 1.5rem;
+        & a{
+            text-decoration: none;
+            color: rebeccapurple;
+            &:hover{
+                color: #000;
+            }
+        }
+      }
+    }
+  }
 }

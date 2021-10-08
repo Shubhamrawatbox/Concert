@@ -2,12 +2,9 @@
 title: why concert party
 ---
 
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo unde
-explicabo recusandae itaque? Unde natus, dignissimos quis perspiciatis
-repellat ullam eligendi error vitae deserunt corrupti ipsam explicabo
-alias voluptatem iure, porro nulla temporibus earum quas!
+
+-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.
 
 
-
-![company](../../images/company/img.jpg)
+![images](../../images/one.jpg)
 

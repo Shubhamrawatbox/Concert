@@ -1,0 +1,11 @@
+.dashboard{
+    min-height: 70vh;
+    padding: 2rem;
+    & .upcoming, .booking{
+        margin: 2rem 0;
+    }
+}
+
+.badge{
+    color: #000 !important;
+}

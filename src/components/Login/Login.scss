@@ -1,0 +1,27 @@
+.login-wrapper {
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  .login-form {
+    padding: 3rem;
+    .login-area {
+        text-align: center;
+      .nav-concert {
+        color: #8e44ad;
+        font-size: 2rem;
+      }
+      .nav-party {
+        color: #9b59b6;
+        font-size: 2rem;
+      }
+    }
+    .form-area{
+        margin-top: 2rem;
+    }
+}
+}
+
+.bg-text{
+  padding: 50% 2rem 4rem;
+  color: #fff;
+}

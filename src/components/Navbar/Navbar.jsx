@@ -5,22 +5,29 @@ import { Link } from "gatsby"
 import { Container } from "react-bootstrap"
 
 import "bootstrap/dist/css/bootstrap.min.css"
-import './Navbar.scss'
+import "./Navbar.scss"
 
-const MainNavbar = () => {
+const MainNavbar = ({auth}) => {
+  const authText=auth ? "logout" : "login"
   return (
     <div>
       <Navbar bg="light" expand="lg" className="main-navbar">
         <Container>
-          <Navbar.Brand href="#home ">
+          <Navbar.Brand>
+            <Link to="/">
               <span className="nav-concert">Concert</span>
               <span className="nav-party">Party</span>
-              </Navbar.Brand>
+            </Link>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto" style={{marginLeft:'auto'}}>
-              <Link to='/' className="nav-link">Home</Link>
-              <Link to='/Contact' className="nav-link">Contact</Link>
+            <Nav className="ml-auto" style={{ marginLeft: "auto" }}>
+              <Link to="/Concert" className="nav-link">
+                Concert_Info
+              </Link>
+              <Link to="/Login" className="nav-link">
+                {authText}
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

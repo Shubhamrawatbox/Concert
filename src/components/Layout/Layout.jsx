@@ -4,9 +4,9 @@ import MainNavbar from "../Navbar/Navbar"
 import '../../styles/Main.scss'
 import Footer from "../Footer/Footer"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, ...props}) => {
   return <div className="layout">
-      <MainNavbar/>
+      <MainNavbar auth={props.auth}/>
       {children}
       <Footer/>
       </div>

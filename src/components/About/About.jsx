@@ -1,6 +1,8 @@
 import React from "react"
 import WhyPraty from "./WhyPraty"
 import './About.scss'
+import ContactInfo from "./ContactInfo"
+
 
 const About = () => {
   return (
@@ -11,12 +13,7 @@ const About = () => {
               <WhyPraty/>
           </div>
           <div className="col-4">
-            <h4>Fiind out</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Praesentium consequatur expedita dolores blanditiis architecto
-              enim repellat delectus reiciendis iusto dolor!
-            </p>
+            <ContactInfo/>
           </div>
         </div>
       </div>
